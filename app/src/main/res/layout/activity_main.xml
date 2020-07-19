@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/background"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:textSize="31sp"
+            android:fontFamily="sans-serif-condensed"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:layout_marginBottom="16dp"
+            android:padding="16dp"
+            android:text="@string/mening_musiqalarim"
+            android:textColor="@color/personal_music" />
+
+        <TextView
+            android:textColor="@color/uzbek_music"
+            android:id="@+id/uzbek_music"
+            android:fontFamily="sans-serif-condensed"
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:textSize="20sp"
+            android:text="@string/uzbek_music" />
+
+        <View
+            android:background="@color/rus_music"
+            android:layout_width="match_parent"
+            android:layout_height="1dp" />
+
+        <TextView
+            android:fontFamily="sans-serif-condensed"
+            android:id="@+id/rus_music"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="16dp"
+            android:text="@string/rus_music"
+            android:textColor="@color/rus_music"
+            android:textSize="20sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:background="@color/rus_music"
+            android:layout_height="1dp" />
+
+        <TextView
+            android:id="@+id/world_music"
+            android:layout_width="match_parent"
+            android:textColor="@color/rus_music"
+            android:fontFamily="sans-serif-condensed"
+            android:textSize="20sp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="16dp"
+            android:text="@string/world_music" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/rus_music" />
+
+        <TextView
+            android:gravity="center"
+            android:padding="16dp"
+            android:id="@+id/pop_music"
+            android:layout_width="match_parent"
+            android:textColor="@color/rus_music"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-condensed"
+            android:text="@string/pop_music"
+            android:textSize="20sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/rus_music" />
+
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-condensed"
+        android:text="@string/add_music"
+        android:id="@+id/add_music"
+        android:gravity="center" />
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/kalit"
+        android:contentDescription="@string/todo" />
+
+</LinearLayout>

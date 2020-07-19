@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+
+    android:padding="17dp"
+    android:background="@color/background">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="197dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="@dimen/buyiga"
+        android:src="@drawable/ritim"
+        android:contentDescription="@string/todo" />
+
+    <TextView
+        android:id="@+id/music_nom"
+        tools:text="Music"
+        android:layout_width="match_parent"
+        android:textSize="@dimen/music_text"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+
+        />
+
+    <TextView
+        android:id="@+id/music_artist"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="@dimen/artist_text"
+        tools:text="Artist" />
+
+    <SeekBar
+        android:id="@+id/seekbar"
+        android:layout_width="match_parent"
+        android:progress="50"
+        android:layout_height="wrap_content"
+        android:max="100"
+        android:padding="@dimen/eniga"
+         />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:padding="@dimen/eniga">
+
+        <ImageView
+            android:id="@+id/pauseb"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/pause"
+            android:contentDescription="@string/todo" />
+
+        <ImageView
+            android:id="@+id/playb"
+            android:layout_weight="1"
+            android:layout_width="56dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/play"
+            android:contentDescription="@string/todo" />
+
+
+
+        <ImageView
+            android:id="@+id/stopb"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/stop"
+            android:contentDescription="@string/todo" />
+
+    </LinearLayout>
+
+</LinearLayout>

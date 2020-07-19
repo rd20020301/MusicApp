@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primary_color">#3a24aa</color>
+    <color name="primary_dark_color">#3a24aa</color>
+    <color name="background">#72ccd4</color>
+    <color name="uzbek_music">#2d24aa</color>
+    <color name="rus_music">#243faa</color>
+    <color name="world_music">#2469aa</color>
+    <color name="play_button">#2469aa</color>
+    <color name="pause_button">#2469aa</color>
+    <color name="stop_button">#2469aa</color>
+    <color name="button_text">#72ccd4</color>
+    <color name="personal_music">#2d24aa</color>
+</resources>

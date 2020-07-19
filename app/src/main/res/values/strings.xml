@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">MusicApp</string>
+    <string name="uzbek_music">O`zbek musiqasi</string>
+    <string name="rus_music">Rus musiqasi</string>
+    <string name="world_music">Jahon musiqasi</string>
+    <string name="play_button">Boshla</string>
+    <string name="pause_button">| |</string>
+    <string name="stop_button">To`xta</string>
+    <string name="todo">TODO</string>
+    <string name="menuDescription" />
+
+    <string name="pop_music">Pop musiqasi</string>
+    <string name="mening_musiqalarim">Mening musiqalarim</string>
+    <string name="todo1">TODO</string>
+    <string name="todo2">TODO</string>
+    <string name="todo3">TODO</string>
+    <string name="todo4">TODO</string>
+    <string name="add_music" > + (musiqa qo`shish)</string>
+    <string name="new_music">New music</string>
+    <string name="upload_file">Upload file</string>
+    <string name="add_music1" >AddMusic</string>
+</resources>

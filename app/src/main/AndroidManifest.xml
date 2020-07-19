@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="uz.include.musicapp">
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+
+    <application
+
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".UzbekActivity"
+            android:label="@string/uzbek_music"
+            tools:ignore="Instantiatable"
+            android:parentActivityName=".MainActivity"/>
+        <activity
+            android:name=".RusActivity"
+            android:label="@string/rus_music"
+            tools:ignore="Instantiatable"
+            android:parentActivityName=".MainActivity"/>
+        <activity
+            android:name=".WorldActivity"
+            android:label="@string/world_music"
+            tools:ignore="Instantiatable"
+            android:parentActivityName=".MainActivity"/>
+        <activity
+            android:name=".PopActivity"
+            android:label="@string/pop_music"
+            tools:ignore="Instantiatable"
+            android:parentActivityName=".MainActivity"/>
+        <activity
+            android:name=".AddMusic"
+            android:label="@string/add_music1"
+            tools:ignore="Instantiatable"
+            android:parentActivityName=".MainActivity"/>
+
+        <activity
+            android:name=".QushiqActivity"
+            android:label="Play Music"
+            android:parentActivityName=".MainActivity"/>
+    </application>
+
+</manifest>
